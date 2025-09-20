@@ -34,7 +34,7 @@ EXAMPLE
 
 =============================================================================================================================================================================
 
-HOW TO EXECUTE THE PROGRAM
+# HOW TO EXECUTE THE PROGRAM
 
 To execute the program, you shall use the following template:
 
@@ -50,7 +50,7 @@ make
 
 =============================================================================================================================================================================
 
--C1 | OPERATION NR. 1
+# -C1 | OPERATION NR. 1
 
 The program receives as input a list of satellites, each characterized by a unique identifier and a data reporting frequency. A function must be implemented to build the binary tree, such that the following criteria: satellites with higher reporting frequency are closer to the root, while those with lower frequency are placed farther away. The function will return the root of the satellite network.
 
@@ -88,7 +88,7 @@ Example Output:
 
 =============================================================================================================================================================================
 
--C2 | OPERATION NR. 2
+# -C2 | OPERATION NR. 2
 
 The program receives a binary-encoded message. Each 0 represents a move to the left child in the satellite tree, and each 1 represents a move to the right child. The task is to decode the sequence in order to determine the satellites it refers to.
 
@@ -120,7 +120,7 @@ Explanation:
 
 =============================================================================================================================================================================
 
--C3 | OPERATION NR. 3
+# -C3 | OPERATION NR. 3
 
 The program must encode a given list of satellites based on the previously built binary tree.
 It reads a number N and then the names of N satellites. For each satellite, the binary code is determined by traversing the tree (0 = left child, 1 = right child).
@@ -147,7 +147,7 @@ Example Output:
 
 =============================================================================================================================================================================
 
--C4 | OPERATION NR. 4
+# -C4 | OPERATION NR. 4
 
 The program must determine the lowest common ancestor of a given set of satellites in the binary tree.
 It receives as input a list of satellite identifiers and must return the unique identifier of the parent satellite that connects all of them.
@@ -173,7 +173,7 @@ C7B4A7
 
 =============================================================================================================================================================================
 
-DOCUMENTATION
+# DOCUMENTATION
 
 
 In struct_fct.h, we have the structures for a tree, nodes, queue, heap.
