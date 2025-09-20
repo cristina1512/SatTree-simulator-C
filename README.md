@@ -38,8 +38,10 @@ HOW TO EXECUTE THE PROGRAM
 
 To execute the program, you shall use the following template:
 
+`````````````````
 make
 ./sattree [-c1 |-c2 |-c3 |-c4] [input_file] [output_file]
+`````````````````
 
 -c1 indicates that the program will be execute operation nr. 1
 -c2 indicates that the program will be execute operation nr. 2
